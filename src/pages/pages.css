@@ -1,0 +1,73 @@
+.MainC{
+    padding-top: 0.5em;
+    padding-right: 1em;
+    display: flex;
+
+}
+.fDiv{
+    color:rgb(3, 3, 136) ;
+    padding-top: 4em;
+    padding-right: 5em;
+}
+.fDiv h1{
+    font-size: 4em;
+}
+.fDiv h2{
+    font-size: 1em;
+    color: black;
+}
+.fDiv button{
+    color: whitesmoke;
+    background-color:rgb(3, 3, 136) ;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.sDiv img{
+   height: 500px;
+   width: 550px;
+}
+
+.user-react-icons{
+    margin: 1em;
+    font-size: 35px;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow:  5px 5px 5px 5px lightgray;
+    max-width: 400px;
+    margin: 10px;
+    position: relative;
+    left: 30%;
+}
+.innerContainer input{
+    margin-top: 1em ;
+    margin-bottom: 1em;
+    border: none;
+    box-shadow:  2px 2px lightgray;
+
+}
+*:focus{
+    outline: none;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.labels{
+    display: flex;
+    align-items: left;
+}
+.Container button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0.7em 4.5em 0.7em 4.5em;
+    border: none;
+    border-radius: 10px;
+    background:  #336699;
+}
