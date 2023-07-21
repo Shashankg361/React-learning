@@ -43,24 +43,14 @@
   display : flex;
   row-gap: 2em;
 }
-.loginbtn{
-  background-color: #3b455c;
-  color: aliceblue;
-  padding-left: 5px;
-  padding-top: 5px;
-  padding-right: 5px;
-}
-.loginbtn:hover{
-  background-color: #63676e;
-  color: #61dafb;
-}
+
 
 .navHome{
   margin-left: auto;
 }
 .navContainer :Link{
   margin-right: 5px;
-  font-weight: bold;
+  font-weight: bold; 
 
 }
 

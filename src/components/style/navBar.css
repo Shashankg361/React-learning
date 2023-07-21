@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Titillium+Web:ital,wght@0,300;1,300&display=swap');
+
+*{
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+ 
+:root{
+    --mainColor : #29335C;
+    --mainColorLight : #5767aa;
+    --secondaryColor : #DB2839;
+    --textColor : #eee;
+
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding-left: 1rem;
+	background-color: #29335C;
+	color: #eee;
+}
+
+
+
+header a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold; 
+    padding: 1rem;
+    color: #eee;
+
+}
+
+header a:hover{
+    color: #DB2839;
+}
+
+header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+
+}
+.logo{
+    padding-top: 0.5rem;
+    color: aquamarine;
+}
+#logoT{
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: #eee;
+}
+header nav {
+	display: flex;
+	align-items: center;
+    margin-top: 1.5rem;
+}
+.loginbtn{
+    color: aliceblue;
+  }
+  .loginbtn:hover{
+    color: #61dafb;
+  }
+
+@media only screen and (max-width : 1024px) {
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+        padding: 1rem;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: #29335C;
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 1;
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    .nav-btn-close{
+        position: fixed;
+        top:0;
+        right: 0;
+    }
+    .loginbtn{
+        color: aliceblue;
+    }
+    .loginbtn:hover{
+        color: #61dafb;
+      }
+}
+
+

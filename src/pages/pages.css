@@ -21,6 +21,7 @@
     background-color:rgb(3, 3, 136) ;
     font-size: 20px;
     border-radius: 5px;
+    margin: 1rem;
 }
 .sDiv img{
    height: 500px;
@@ -30,6 +31,7 @@
 .user-react-icons{
     margin: 1em;
     font-size: 35px;
+    color:blueviolet;
 }
 
 .Container{
@@ -63,11 +65,26 @@
     display: flex;
     align-items: left;
 }
-.Container button{
+.Container #submit{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0.7em 4.5em 0.7em 4.5em;
     border: none;
     border-radius: 10px;
     background:  #336699;
+}
+
+
+@media only screen and (max-width : 1024px){
+    .MainC{
+        padding-top: 0.5em;
+        padding-right: 1em;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .sDiv img{
+        height: 100%;
+        width: 100%;
+     }
 }
