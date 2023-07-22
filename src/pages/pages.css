@@ -6,8 +6,7 @@
 }
 .fDiv{
     color:rgb(3, 3, 136) ;
-    padding-top: 4em;
-    padding-right: 5em;
+    padding: 1rem;
 }
 .fDiv h1{
     font-size: 4em;
@@ -88,6 +87,10 @@
         justify-content: center;
         align-items: center;
     
+    }
+    .fDiv{
+        color:rgb(3, 3, 136) ;
+        padding: 1rem;
     }
     .sDiv img{
         height: 100%;
