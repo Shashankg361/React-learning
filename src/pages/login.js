@@ -26,6 +26,7 @@ export const Login = ()=>{
 
 
     return (
+        <div id='loginContainer'>
         <div className='Container'>
             
             <IconContext.Provider value={{ className: "user-react-icons" }}>
@@ -53,6 +54,7 @@ export const Login = ()=>{
             
             
             
+        </div>
         </div>
     )
 }

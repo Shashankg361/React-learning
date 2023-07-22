@@ -34,7 +34,13 @@
     color:blueviolet;
 }
 
+#loginContainer{
+    display: flex;
+    justify-content: center;
+}
+
 .Container{
+    padding:  1rem 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,8 +49,6 @@
     box-shadow:  5px 5px 5px 5px lightgray;
     max-width: 400px;
     margin: 10px;
-    position: relative;
-    left: 30%;
 }
 .innerContainer input{
     margin-top: 1em ;
@@ -81,6 +85,8 @@
         padding-right: 1em;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     
     }
     .sDiv img{
